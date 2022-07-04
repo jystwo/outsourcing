@@ -1,0 +1,78 @@
+
+
+.top{
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    background-image: url('ygIMG/img.JPG');
+    background-size:cover;
+    height: 800px;
+}
+.top div{
+    color: white;
+    text-align: center;
+}
+
+.top h2{
+    margin-bottom: -20px;
+}
+.second{
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    background-color: red;
+    height: 400px;
+}
+.second div{
+    background-color: white;
+    text-align: center;
+    width: 90%;
+    font-size:30px;
+    font-weight: 600;
+}
+.third p, .fourth p, .fifth p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 80px;
+}
+.third-img, .fourth-img{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.third figure, .fourth figure{
+    text-align: center;
+    font-weight: 600;
+}
+figure img{
+    height: 300px;
+}
+.fifth{
+    background-color: bisque;
+    width: 90%;
+    margin-bottom: 100px;
+
+}
+.fifth-img{
+    display: flex;
+    flex-direction: column;
+}
+
+.fifth-img figure{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.fifth figcaption{
+    text-align: left;
+    margin-left: 18%;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.fifth p{
+    padding: 70px 0px;
+}
+.fifth-img img{
+    max-width: 100%;
+}
