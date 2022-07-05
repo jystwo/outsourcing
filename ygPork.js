@@ -5,7 +5,7 @@ console.log("A");
 
         var windowHeight = window.innerHeight;
         var elementTop = reveals[i].getBoundingClientRect().top;
-        var elementVisible = 50;
+        var elementVisible = 100;
 
         if (elementTop < windowHeight - elementVisible) {
             reveals[i].classList.add("active");
@@ -17,7 +17,4 @@ console.log("A");
     
 window.addEventListener("scroll", reveal);
 
-$(document).ready(function() {
-
-    reveal();
-})
+window.onload =()=>{reveal();}
